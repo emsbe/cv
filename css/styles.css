@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #289672;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #289672;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #bbdfc8;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #f4f9f9;
+}
+
+.bottom-container {
+  background-color: #bbdfc8;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.profile-image {
+  width: 15%;
+  padding-top: 75px;
+}
+
+.starting-description {
+  width: 60%;
+  margin: auto auto 50px auto;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: darkgrey;
+  border-top-width: 5px;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 190px;
+  top: 90px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 270px;
+  left: 190px;
+}
+
+.coding-image {
+  width: 25%;
+  margin-right: 30px;
+  margin-top: 50px;
+  float: left;
+}
+
+.crafting-image {
+  width: 25%;
+  margin-left: 30px;
+  margin-top: 50px;
+  float: right;
+}
+
+
+.reference {
+  font-size: 0.5rem;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.end-text {
+  line-height: 2;
+  padding-bottom: 20px
+}
+
+.BUTTON_ELT {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #BBDFC8;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.BUTTON_ELT:hover {
+   background: #289672;
+   border: solid #289672 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-reference {
+  color: #edffec;
+  font-size: 0.7rem;
+  padding: 10px;
+}
+
+.footer-linkedin {
+  position: absolute;
+  left: 800px;
+}
+
+.footer-website {
+  position: absolute;
+  right: 800px;
+}
+
+a {
+  color:#11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+/* colour hunt palettes: https://colorhunt.co/palette/252860 https://colorhunt.co/palette/264502 */
+/* cool colour: #edffec */
